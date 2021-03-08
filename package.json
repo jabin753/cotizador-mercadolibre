@@ -1,0 +1,36 @@
+{
+  "name": "cotizador-mercadolibre",
+  "version": "1.0.0",
+  "description": "Scrapper de terminal para generar cotizaciones de productos de mercadolibre",
+  "main": "bin/index.js",
+  "bin": {
+    "hello": "./bin/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jabin753/cotizador-mercadolibre.git"
+  },
+  "keywords": [
+    "mercado",
+    "libre",
+    "cotizador",
+    "scrapper",
+    "terminal"
+  ],
+  "author": "Joseph Jabin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jabin753/cotizador-mercadolibre/issues"
+  },
+  "homepage": "https://github.com/jabin753/cotizador-mercadolibre#readme",
+  "dependencies": {
+    "boxen": "^5.0.0",
+    "chalk": "^4.1.0",
+    "cheerio": "^1.0.0-rc.5",
+    "got": "^11.8.2",
+    "yargs": "^16.2.0"
+  }
+}
